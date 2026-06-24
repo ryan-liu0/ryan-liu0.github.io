@@ -13,18 +13,14 @@
   margin-top: 3em;
   width: 100%;
   clear: both;
-
-  /* keep footer in normal document flow so custom widgets do not overlap content */
   height: auto;
-
-  /* keep the footer on the bottom of the page */
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  bottom: auto;
 
   -webkit-animation: intro 0.3s both;
-          animation: intro 0.3s both;
+  animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
-          animation-delay: 0.45s;
+  animation-delay: 0.45s;
   border-top: 1px solid var(--global-dark-border-color);
 
   footer {
@@ -58,6 +54,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   /* don't pin the footer on mobile devices */
   .page__footer {
     position: relative;
@@ -86,7 +83,7 @@
     text-transform: uppercase;
   }
 
-  li + li:before {
+  li+li:before {
     content: "";
     padding-right: 5px;
   }

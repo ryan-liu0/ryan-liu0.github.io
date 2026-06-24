@@ -27,7 +27,7 @@ author:
   name             : "Ryan Liu"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  location         : #
   employer         : "Brown University"
   uri              : # URL
   email            : "[first]_[last]1@brown.edu" 

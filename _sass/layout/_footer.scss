@@ -2,6 +2,17 @@
    FOOTER
    ========================================================================== */
 
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .page__footer {
   @include clearfix;
   background-color: var(--global-footer-bg-color);
@@ -10,7 +21,7 @@
   float: left;
   margin-left: 0;
   margin-right: 0;
-  margin-top: 3em;
+  margin-top: auto;
   width: 100%;
   clear: both;
   height: auto;

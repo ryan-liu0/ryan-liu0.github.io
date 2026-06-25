@@ -9,4 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-<p><em>coming soon :)</em></p>
+<ul>
+    {% for project in site.projects %}
+    <li>
+        <a href="{{ project.url | relative_url }}">{{ project.title | default: project.name }}</a>
+    </li>
+    {% endfor %}
+</ul>

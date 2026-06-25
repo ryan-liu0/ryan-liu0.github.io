@@ -11,4 +11,4 @@ Hi! I'm a rising senior at Brown University studying Applied Mathematics and Com
 
 I'm currently working on [approximation algorithms](https://reu.dimacs.rutgers.edu/~rl1395/) with [Prof. Roie Levin](https://roielevin.com/), and machine learning in biostatistics with [Prof. Rebecca Hubbard](https://sites.brown.edu/regardslab/) and [Dr. Kenya Andrews](https://leadershipportfolio.wixsite.com/kenyaandrewscv). 
 
-I also play the double bass in the Brown University Orchestra, and previously in several musicals and jazz groups.
+Outside of academics, I currently play the double bass in the Brown University Orchestra, and previously performed in several musicals and jazz groups.

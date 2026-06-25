@@ -7,7 +7,8 @@ html {
   min-height: 100%;
 
   scroll-behavior: smooth;
-  overscroll-behavior-y: none;
+  overscroll-behavior-y: contain;
+  scroll-padding-top: $masthead-height;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
   padding-bottom: 9em;
   font-family: $global-font-family;
   line-height: 1.5;
+  overscroll-behavior-y: contain;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

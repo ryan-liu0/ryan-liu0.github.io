@@ -204,8 +204,13 @@
 
   .visible-links {
     display: table;
-    margin-left: 0.25rem;
-    padding-left: 0.25rem;
+    margin-left: 0;
+    padding-left: 0;
+
+    @include breakpoint($large) {
+      margin-left: 0.25rem;
+      padding-left: 0.25rem;
+    }
 
     li {
       display: table-cell;

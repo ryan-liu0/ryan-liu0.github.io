@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: archive
 permalink: /projects/
 title: "Projects"
@@ -9,4 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-<p><em>coming soon :)</em></p>
+<p><em>coming soon :)</em></p> -->

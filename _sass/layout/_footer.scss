@@ -2,15 +2,13 @@
    FOOTER
    ========================================================================== */
 
-html,
-body {
-  min-height: 100%;
+.initial-content {
+  flex: 1 0 auto;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.page__footer {
+  flex-shrink: 0;
+  margin-top: 0;
 }
 
 .page__wrapper {
@@ -27,8 +25,6 @@ body {
   margin-top: 0;
   width: 100%;
   height: auto;
-  position: sticky;
-  bottom: 0;
   flex-shrink: 0;
   z-index: 10;
 

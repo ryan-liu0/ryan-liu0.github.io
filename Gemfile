@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 group :jekyll_plugins do
   gem 'jekyll'
+  gem 'liquid', '4.0.0'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
   gem 'jekyll-redirect-from'
